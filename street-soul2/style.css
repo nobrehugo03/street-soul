@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 500vh;
+    background-color: black;
+}
+
+/* INICIO HEADER */
+.container-header {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header.rolagem {
+    background-color: #fff;
+    padding: 20px 4%;
+
+}
+
+header.rolagem a {
+    color: black;
+}
+
+header i {
+    font-size: 30px;
+    color: #fff;
+}
+
+header ul {
+    list-style-type: none;
+
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-login button {
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.Banner {
+    height: 100vh;
+    background-image: url(img/2-slide-1721774235400-4012656336-724046670b6413c92938dfebecfd6c5e1721774243-1920-1920.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* FIM HEADER */
+
